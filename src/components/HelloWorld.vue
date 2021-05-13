@@ -4,9 +4,9 @@
 		
 		<div id="splash-container">
 
-			<div id="splash-copy-wrapper">
+			<div id="splash-copy-wrapper" class="fade-in">
 
-				<div class="front">
+				<div class="">
 					
 					<p class="title">SAH D<span>esign</span></p>
 					<p class="info">Seth Holden</p>
@@ -203,13 +203,13 @@ html {
 
 #footer-content.active {
 
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(59,59,69, 1);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(59,59,69, 1);
 }
 
 .social-link-wrapper {
@@ -250,4 +250,56 @@ html {
 
 }
 
+.fade-in {
+	animation: fadeIn ease 2.5s;
+	-webkit-animation: fadeIn ease 2.5s;
+	-moz-animation: fadeIn ease 2.5s;
+	-o-animation: fadeIn ease 2.5s;
+	-ms-animation: fadeIn ease 2.5s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 </style>
