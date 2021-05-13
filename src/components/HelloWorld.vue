@@ -8,7 +8,7 @@
 
 				<div class="front">
 					
-					<p class="title">SAH Design</p>
+					<p class="title">SAH D<span>esign</span></p>
 					<p class="info">Seth Holden</p>
 					<p class="info">Freelance Architectural Designer</p>
 					<p class="coming-soon">Coming soon...</p>
@@ -30,7 +30,12 @@
 						<path d="M15.996 15.457l16.004-7.539v-3.918h-32v3.906zM16.004 19.879l-16.004-7.559v15.68h32v-15.656z"></path>
 					</svg>
 				</a>
-				<a id="tel-link" href="tel:+19789306903">978.930.6903</a>
+				<a id="tel-link" href="tel:+19789306903">
+					<svg class="icon icon-old-phone"><use xlink:href="#icon-old-phone"></use></svg>
+					<symbol id="icon-old-phone" viewBox="0 0 20 20">
+						<path d="M17.256 12.253c-0.096-0.667-0.611-1.187-1.274-1.342-2.577-0.604-3.223-2.088-3.332-3.734-0.457-0.085-1.27-0.177-2.65-0.177s-2.193 0.092-2.65 0.177c-0.109 1.646-0.755 3.13-3.332 3.734-0.663 0.156-1.178 0.675-1.274 1.342l-0.497 3.442c-0.175 1.212 0.715 2.305 1.953 2.305h11.6c1.237 0 2.128-1.093 1.953-2.305l-0.497-3.442zM10 15.492c-1.395 0-2.526-1.12-2.526-2.5s1.131-2.5 2.526-2.5 2.526 1.12 2.526 2.5-1.132 2.5-2.526 2.5zM19.95 6c-0.024-1.5-3.842-3.999-9.95-4-6.109 0.001-9.927 2.5-9.95 4s0.021 3.452 2.535 3.127c2.941-0.381 2.76-1.408 2.76-2.876 0-1.024 2.392-1.271 4.655-1.271s4.654 0.247 4.655 1.271c0 1.468-0.181 2.495 2.76 2.876 2.513 0.325 2.558-1.627 2.535-3.127z"></path>
+					</symbol>
+				</a>
 			</div>
 
 		</footer>
@@ -112,6 +117,12 @@ html {
 	font-size: 2.5em;
 	color: #CC5500;
 	text-transform: uppercase;
+}
+
+.title span {
+
+	font-size: 2.25rem;
+
 }
 
 .stage {
@@ -224,11 +235,11 @@ html {
 
 }
 
-#tel-link {
+#tel-link svg {
 
-	font-size: 0.75rem;
-	color: white;
-	text-decoration: none;
+	height: 1.5rem;
+	width: 1.5rem;
+	fill: white;
 
 }
 
