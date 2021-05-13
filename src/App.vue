@@ -1,0 +1,26 @@
+<template>
+	<div id="app">
+		<HelloWorld msg="SAH Design"/>
+	</div>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+	name: 'App',
+	components: {
+		HelloWorld
+	}
+}
+</script>
+
+<style>
+	
+#app {
+
+	height: 100%;
+
+}
+
+</style>
