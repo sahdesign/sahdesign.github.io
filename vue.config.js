@@ -14,32 +14,39 @@ module.exports = {
 		  .use('vue-loader')
 		  .loader('vue-loader')
 		  .tap(options => {
-			options.transformAssetUrls = {
-			  img: 'src',
-			  image: 'xlink:href',
-			  'b-avatar': 'src',
-			  'b-img': 'src',
-			  'b-img-lazy': ['src', 'blank-src'],
-			  'b-card': 'img-src',
-			  'b-card-img': 'src',
-			  'b-card-img-lazy': ['src', 'blank-src'],
-			  'b-carousel-slide': 'img-src',
-			  'b-embed': 'src'
-			}
-			return options
-		})
+				options.transformAssetUrls = {
+				img: 'src',
+				image: 'xlink:href',
+					'b-avatar': 'src',
+					'b-img': 'src',
+					'b-img-lazy': ['src', 'blank-src'],
+					'b-card': 'img-src',
+					'b-card-img': 'src',
+					'b-card-img-lazy': ['src', 'blank-src'],
+					'b-carousel-slide': 'img-src',
+					'b-embed': 'src'
+				}
+				return options
+			})
 		config.module
 			.rule('images') // -> Default configuration
 			.test(/\.(png|jpe?g|gif|webp)(\?.*)?$/)
 			.use('url-loader')
 			.loader('url-loader')
 			.options({
-			limit: 4096,
-			fallback: {
-				loader: 'file-loader',
-				options: { name: 'img/[name].[ext]' },
-			},
-		})
+				limit: 4096,
+				fallback: {
+					loader: 'file-loader',
+					options: { name: 'img/[name].[ext]' },
+				}
+			})
+		config.module.rule('pdf')
+			.test(/\.(pdf)(\?.*)?$/)
+			.use('file-loader')
+			.loader('file-loader')
+			.options({
+				name: 'docs/[name].[ext]'
+			})
 		.end()
 	},
 	css: {

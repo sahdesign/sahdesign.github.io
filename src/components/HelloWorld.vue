@@ -111,7 +111,7 @@
 					<p>As a lifelong resident of Holliston, MA,  Seth's love for design has evolved over the years with a hands on approach. His knowledge both in the field and the office has been a key asset that gives him a big picture perspective.  While not working he enjoys spending time with his family, friends, and fiancee'. Seth is an avid endurance athlete who is a passionate participant of  triathlons, hiking, and running.</p>
 
 					<div class="pdf-link-wrapper">
-						<strong><a class="resume-link" href="../resources/documents/Seth-Holden-Resume-2021.pdf">Download</a></strong>
+						<strong><a class="resume-link" :href="sethResume">Download</a></strong>
 						<div class="pdf-icon">
 							<svg
 								xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -196,7 +196,7 @@
 						</div>
 					</div>
 					<div class="pdf-link-wrapper">
-						<strong><a class="current-work-link" href="../resources/documents/20220608-SAH-Design-Current-Work.pdf">Current work</a></strong>
+						<strong><a class="current-work-link" :href="currentWork">Current work</a></strong>
 						<div class="pdf-icon">
 							<svg
 								xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -331,6 +331,9 @@
 	import HighStExtModal from './projects/High-St-Ext/Modal.vue';
 
 	import bannerImg from '../resources/images/logos/SAH-Design-Logo-full.png';
+	import sethResume from '../resources/documents/Seth-Holden-Resume-2021.pdf';
+	import currentWork from '../resources/documents/20220608-SAH-Design-Current-Work.pdf';
+
 
 	export default {
 		name: 'HelloWorld',
@@ -351,7 +354,9 @@
 		},
 		data: function () {
             return {
-                bannerImg: bannerImg
+                bannerImg: bannerImg,
+				sethResume: sethResume,
+				currentWork: currentWork
             }
         }
 	}
