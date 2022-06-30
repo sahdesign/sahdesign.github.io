@@ -1,0 +1,16 @@
+@import "utilities/variables",
+        "components/global",
+        "components/animations",
+        "components/header",
+        "components/hero",
+        "components/images",
+        "components/nav",
+        "components/carousel",
+        "components/footer",
+        "components/splash",
+        "components/modals";
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+

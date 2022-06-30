@@ -1,0 +1,49 @@
+#hero-img-container {
+    min-height: 500px;
+    width: 100vw;
+    position: relative;
+    .carousel {
+        height: auto;
+        width: 100vw;
+        padding-top: $nav-height;
+        .carousel-item {
+            display: flex;
+            opacity: 0;
+            transition: all ease-in-out 800ms;
+        }
+        
+        .carousel-item.active {
+            opacity: 1 !important;
+        }
+        img {
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: $hero-height;
+            width: inherit;
+            overflow: hidden;
+        }
+    }
+}
+
+#hero-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3em;
+    padding: 1.75em;
+    width: 25%;
+    background-color: $footer-background-color;
+    opacity: 85%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 -6px 24px black;
+    p {
+        color: $white;
+        &:first-child {
+            margin-top: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

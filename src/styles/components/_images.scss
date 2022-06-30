@@ -1,0 +1,46 @@
+#logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3em 0 0;
+    margin: 1em 1em 1em 0;
+    color: white;
+
+    picture {
+        margin-right: 1em;
+        height: auto;
+        width: auto;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        img {
+            width: 14em;
+        }
+    }
+}
+
+#hero-img-container {
+    
+    .hero-img {
+        // background: url("../resources/images/Enscape_2021-08-14-12-08-07.jpg") center 20% no-repeat;
+        // background-repeat: no-repeat;
+        object-fit: cover;
+        height: $hero-height;
+        width: inherit;
+        overflow: hidden;
+    }
+}
+
+#profile-pic {
+    background: url("../resources/images/profile/Seth-Work-Photo.jpg") top center no-repeat;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 10em;
+    width: 150px;
+    overflow: hidden;
+    background-size: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex: 1 0 150px;
+}

@@ -1,0 +1,10 @@
+$nav-height: 7em;
+$hero-height: calc(100vh - #{$nav-height});
+
+//colors
+$white: rgb(255, 255, 255);
+$sah-orange: rgb(204, 85, 0);
+$sah-blue: rgb(6, 35, 95);
+$main-font-color: rgba(0, 0, 0, 1) !important;
+$horizontal-rule-color: rgb(54,54,74);
+$footer-background-color: $white;
