@@ -6,10 +6,21 @@
         height: auto;
         width: 100vw;
         padding-top: $nav-height;
+
+        @media screen and (max-width: 768px) {
+            padding-top: calc($nav-height + 4em);
+        }
+
         .carousel-item {
             display: flex;
             opacity: 0;
             transition: all ease-in-out 800ms;
+
+            img {
+                @media screen and (max-width: 768px) {
+                    height: 18em;
+                }
+            }
         }
         
         .carousel-item.active {
@@ -21,6 +32,14 @@
             height: $hero-height;
             width: inherit;
             overflow: hidden;
+        }
+
+        .carousel-caption {
+            h3 {
+                @media screen and (max-width: 768px) {
+                    font-size: 1.25em !important;
+                }
+            }
         }
     }
 }

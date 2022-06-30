@@ -37,7 +37,7 @@
 			<div id="about" class="anchor">
 				<h2>About Us</h2>
 				<div>
-					<p>SAH Design, LLC located in Holiiston, MA offers services with Residential, Commercial, and Millwork design from initial concept to completion.. We take on many different projects and consider no project too small.</p>
+					<p>SAH Design, LLC located in Holliston, MA offers services with Residential, Commercial, and Millwork design from initial concept to completion.. We take on many different projects and consider no project too small.</p>
 				</div>
 			</div>
 			<div id="services" class="anchor">
@@ -289,7 +289,7 @@
 					<p>Seth Holden founded SAH Design, LLC in April 2021. With over 20 years of experience in Residential Construction/Cabinet Making, and 14 years in Commercial work, he understands the working relationship between client, contractor, and many different trades for a successful project.</p>
 				</div>
 				<div class="contact-form">
-					<iframe style="width: 100%; margin: 3em 0; display: flex;" src="https://docs.google.com/forms/d/e/1FAIpQLSf0xCyhVn79DlwIPHC7utKXx8kPp1uq8bLNWFwtA0rOrJy4ug/viewform?embedded=true" width="640" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+					<iframe style="width: 100%; margin: 3em 0; display: flex;" src="https://docs.google.com/forms/d/e/1FAIpQLSf0xCyhVn79DlwIPHC7utKXx8kPp1uq8bLNWFwtA0rOrJy4ug/viewform?embedded=true" width="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 				</div>
 			</div>
 		</div>

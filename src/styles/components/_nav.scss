@@ -8,6 +8,11 @@
     z-index: 10;
     background-color: $footer-background-color;
     // box-shadow: 0px -3px 15px black;
+
+    @media screen and (max-width: 768px) {
+        height: auto;
+    }
+
     nav {
         // border-bottom: 1px solid black;
         position: relative;
@@ -16,12 +21,28 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 0 2em;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            margin: 0;
+        }
+
         ul {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
             margin-bottom: 0;
+
+            @media screen and (max-width: 768px) {
+                padding: 0;
+                width: 65%;
+                margin: 0 auto;
+                margin-bottom: 1em;
+                margin-left: 10%;
+                justify-content: space-between;
+            }
+
             li {
                 margin: 0.5em;
                 display: flex;
@@ -34,6 +55,11 @@
 
                     &:hover {
                         text-decoration: underline;
+
+                        @media screen and (max-width: 768px) {
+                            text-decoration: none;
+                        }
+
                     }
                 }
                 

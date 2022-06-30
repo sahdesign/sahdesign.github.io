@@ -44,6 +44,10 @@ $h-header: 50px;
 
 .anchor {
     scroll-margin-top: calc($h-header + 2.5em);
+
+	@media screen and (max-width: 768px) {
+        scroll-margin-top: calc($h-header + 5em);
+    }
 }
 
 
@@ -127,10 +131,22 @@ $h-header: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 0;
+
+	h2 {
+		@media screen and (max-width: 768px) {
+			margin-bottom: 0.5em;
+		}
+	}
 	> div {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+		}
+
 		&.profile {
 			max-width: 65vw;
 		}
@@ -145,8 +161,23 @@ $h-header: 50px;
 			text-align: left !important;
 			width: 100%;
 
+			@media screen and (max-width: 768px) {
+				margin-top: 1em;
+			}
+
 		}
 		
+	}
+
+	iframe {
+
+		height: 815px;
+		margin-bottom: 0 !important;
+
+		@media screen and (max-width: 768px) {
+			height: 825px;
+		}
+
 	}
 }
 
