@@ -100,8 +100,10 @@
 					<WilsonRdModal/>
 					<BluejayStModal/>
 					<CausewayStModal/>
-					<BrighamStModal/>
+					<!-- <BrighamStModal/> -->
 					<HighStExtModal/>
+					<WinterStAptsModal/>
+					<ConcordModal/>
 				</div>
 				<!-- <ProjectGrid/> -->
 			</div>
@@ -327,11 +329,13 @@
 	import WilsonRdModal from './projects/6-Wilson-Rd/Modal.vue'; 
 	import BluejayStModal from './projects/17-Bluejay-St/Modal.vue';
 	import CausewayStModal from './projects/200-Causeway-St/Modal.vue';
-	import BrighamStModal from './projects/Brigham-St/Modal.vue';
+	// import BrighamStModal from './projects/Brigham-St/Modal.vue';
 	import HighStExtModal from './projects/High-St-Ext/Modal.vue';
+	import WinterStAptsModal from './projects/Winter-St-Apts/Modal.vue';
+	import ConcordModal from './projects/48-Monument-Sq/Modal.vue';
 
 	import bannerImg from '../resources/images/logos/SAH-Design-Logo-full.png';
-	import sethResume from '../resources/documents/Seth-Holden-Resume-2021.pdf';
+	import sethResume from '../resources/documents/Seth-Holden-Resume-2022-Current.pdf';
 	import currentWork from '../resources/documents/20220608-SAH-Design-Current-Work.pdf';
 
 
@@ -347,8 +351,10 @@
 			WilsonRdModal,
 			BluejayStModal,
 			CausewayStModal,
-			BrighamStModal,
+			// BrighamStModal,
 			HighStExtModal,
+			WinterStAptsModal,
+			ConcordModal,
 			// ProjectGrid,
 			HeroCarousel
 		},

@@ -10,16 +10,12 @@
         <v-if>
             <b-carousel-slide
                 text="Exterior rendering #1"
-                img-src="img/Enscape-2022-06-11-14-18-25-Updated.jpg"
+                img-src="img/Framigham-Rendering.jpg"
             >
             </b-carousel-slide>
             <b-carousel-slide
-                text="Exterior rendering #2"
-                img-src="img/Enscape-2022-06-12-10-23-08.jpg"
-            ></b-carousel-slide>
-            <b-carousel-slide
-                text="Exterior rendering #3"
-                img-src="img/Enscape-2022-06-12-10-45-163-UPDATE.jpg"
+                text="Existing conditions"
+                img-src="img/PXL-20210927-164710841.jpg"
             ></b-carousel-slide>
         </v-if>
         </b-carousel>

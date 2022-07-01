@@ -7,26 +7,31 @@
             fade
         >
             <b-carousel-slide
-                caption="74 Main St."
+                caption="74 Main St"
+                text="New Office - Master's Touch Design • Build"
                 img-src="img/Enscape-2022-05-10-14-06-00-LogoReduced.jpg"
             >
             </b-carousel-slide>
             <b-carousel-slide
-                caption="32 High St. Extension"
+                caption="6 Wilson Rd"
+                text="Exterior Remodel - Private Residence"
                 img-src="img/Enscape-2022-06-23-17-32-45.jpg"
             ></b-carousel-slide>
             <b-carousel-slide
-                caption="250 Main St."
+                caption="200 Causeway St"
+                text="Relocated Post & Beam Barn"
                 img-src="img/Enscape-2021-08-14-12-08-07.jpg"
             >
             </b-carousel-slide>
             <b-carousel-slide
-                caption="250 Main St."
+                caption="250 Main St"
+                text="The Circle at Colache Place - 3-Story Apt Design"
                 img-src="img/The-Circle-AT-Coachplace-final.jpg"
             >
             </b-carousel-slide>
             <b-carousel-slide
-                caption="250 Main St."
+                caption="32 High St Extension"
+                text="Basement Renovation - Private Residence"
                 img-src="img/Pages-from-32HighStExtension-Ashland-FinalBasementDesignPlan.jpg"
             >
             </b-carousel-slide>
