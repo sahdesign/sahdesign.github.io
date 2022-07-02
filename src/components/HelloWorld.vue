@@ -288,8 +288,19 @@
 				<h2>Contact</h2>
 				<div class="profile">
 					<div id="profile-pic"></div>
-					<p>Seth Holden founded SAH Design, LLC in April 2021. With over 20 years of experience in Residential Construction/Cabinet Making, and 14 years in Commercial work, he understands the working relationship between client, contractor, and many different trades for a successful project.</p>
+					<div class="">
+						<p>Seth Holden founded SAH Design, LLC in April 2021. With over 20 years of experience in Residential Construction/Cabinet Making, and 14 years in Commercial work, he understands the working relationship between client, contractor, and many different trades for a successful project.</p>
+						<ul style="list-style-type: none; padding: 0;margin: 0;">
+							<li>We are located at:</li>
+							<li>351 Concord St</li>
+							<li>Suite #2</li>
+							<li>Hollistion, Ma 01746</li>
+						</ul>
+					</div>
 				</div>
+				<!-- <div class="contact-address">
+					
+				</div> -->
 				<div class="contact-form">
 					<iframe style="width: 100%; margin: 3em 0; display: flex;" src="https://docs.google.com/forms/d/e/1FAIpQLSf0xCyhVn79DlwIPHC7utKXx8kPp1uq8bLNWFwtA0rOrJy4ug/viewform?embedded=true" width="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 				</div>
