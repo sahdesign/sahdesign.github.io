@@ -10,3 +10,19 @@
         
     }
 }
+
+.link-modal {
+    &.winter-st {
+        > p {
+            &:first-child {
+                margin-bottom: 0;
+            }
+
+        }
+    }
+    p {
+        small {
+            font-size: 70%;
+        }
+    }
+}

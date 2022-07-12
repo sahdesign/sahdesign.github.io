@@ -42,26 +42,39 @@
 	text-decoration: none;
 	display: inline-block;
 
+	svg {
+		height: 1.25rem;
+		width: auto;
+		padding-right: 1em;
+		fill: $sah-blue !important;	
+	}
+
 }
+
+
+// #mail-link svg,
+// #tel-link svg,
+// #facebook-link svg,
+// #instagram-link svg,
+// #linkedin-link svg {
+// 	height: 1.25rem;
+// 	width: auto;
+// 	padding-right: 1em;
+// }
 
 #mail-link svg {
 
-	height: 2em;
-	width: auto;
-	padding: 0em 1em;
-	fill: $sah-blue !important;	
+	height: 1.75em !important;
 
 }
 
-#tel-link svg {
-
-	height: 1.5rem;
-	width: 1.5rem;
-	fill: $sah-blue;
-
+#linkedin-link svg {
+	padding-right: 0 !important;
 }
 
-#tel-link:visited, #tel-link:hover, #tel-link:active {
+#tel-link:visited, 
+#tel-link:hover,
+#tel-link:active {
 
 	color: $sah-blue;
 	text-decoration: none;
@@ -70,5 +83,6 @@
 
 #copy-date {
 	margin-bottom: 0;
+	padding-right: 1em;
 	color: black;
 }

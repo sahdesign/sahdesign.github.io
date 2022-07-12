@@ -2,7 +2,7 @@
   <div>
     <div class="link-modal" v-b-modal.modal-xl.modal-center @click="modalShow = !modalShow">
 
-      <p>6 Wilson Rd - Northborough, MA - Exterior Re-model</p>
+      <p>6 Wilson Rd - Northborough, MA - Exterior Remodel</p>
     </div>
 
     <b-modal hide-footer no-fade id="modal-xl modal-center" class="6-wilson-rd-modal" centered size="xl" title="6 Wilson Rd - Northborough, MA" v-model="modalShow">

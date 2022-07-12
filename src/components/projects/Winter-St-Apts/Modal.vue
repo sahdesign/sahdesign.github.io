@@ -1,7 +1,8 @@
 <template>
   <div>
-    <div class="link-modal" v-b-modal.modal-xl.modal-center @click="modalShow = !modalShow">
-      <p>Winter St Apartments - Framingham, MA</p>
+    <div class="link-modal winter-st" v-b-modal.modal-xl.modal-center @click="modalShow = !modalShow">
+      <p>Winter St Apartments - Framingham, MA<sup>*</sup></p>
+      <p><small><sup>*</sup> Work while employed at Dario Designs, Inc.</small></p>
     </div>
 
     <b-modal hide-footer no-fade id="modal-xl modal-center" centered size="xl" title="Winter St Apartments - Framingham, MA" v-model="modalShow">
