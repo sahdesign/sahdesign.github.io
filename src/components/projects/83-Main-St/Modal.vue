@@ -4,7 +4,7 @@
       <p>83 Main St - Medway, MA - Master's Touch - New Office</p>
     </div>
 
-    <b-modal hide-footer no-fade id="modal-xl modal-center" class="74-main-st-modal" centered size="xl" title="74 Main St - Medway, MA" v-model="modalShow">
+    <b-modal hide-footer no-fade id="modal-xl modal-center" class="74-main-st-modal" centered size="xl" title="83 Main St - Medway, MA" v-model="modalShow">
       <ProjectCarousel/>
     </b-modal>
   </div>
