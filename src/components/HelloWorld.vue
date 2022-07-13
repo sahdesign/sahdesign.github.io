@@ -86,7 +86,7 @@
 								<h5>Construction Administration</h5>
 								<p>Depending on the project this phase will include visiting the site, and assisting with construction questions until the jobs completion.</p>
 								<h5>Design Studies</h5>
-								<p>If you are unsure about taking on a project with fulls scope of services, SAH Design, LLC offers studies to allow you to make a decision to move forward.</p>
+								<p>If you are unsure about taking on a project with a full scope of services, SAH Design, LLC offers studies to allow you to make a decision to move forward.</p>
 							</b-col>
 						</b-row>
 					</b-container>
@@ -110,7 +110,7 @@
 			<div id="resume" class="anchor">
 				<h2>Resume</h2>
 				<div>
-					<p>As a lifelong resident of Holliston, MA,  Seth's love for design has evolved over the years with a hands on approach. His knowledge both in the field and the office has been a key asset that gives him a big picture perspective.  While not working he enjoys spending time with his family, friends, and fiancee'. Seth is an avid endurance athlete who is a passionate participant of  triathlons, hiking, and running.</p>
+					<p>As a lifelong resident of Holliston, MA,  Seth's love for design has evolved over the years with a hands on approach. His knowledge both in the field and the office has been a key asset that gives him a big picture perspective.  While not working he enjoys spending time with his family, friends, and fiancée. Seth is an avid endurance athlete who is a passionate participant of  triathlons, hiking, and running.</p>
 
 					<div class="pdf-link-wrapper">
 						<strong><a class="resume-link" :href="sethResume">Download</a></strong>
