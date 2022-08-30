@@ -7,17 +7,19 @@
             :interval="0"
             controls
         >
-        <v-if>
             <b-carousel-slide
                 text="Exterior rendering #1"
                 img-src="img/Framigham-Rendering.jpg"
             >
             </b-carousel-slide>
             <b-carousel-slide
-                text="Existing conditions"
+                text="Finished conditions"
                 img-src="img/PXL-20210927-164710841.jpg"
             ></b-carousel-slide>
-        </v-if>
+            <b-carousel-slide
+                text="Existing conditions"
+                img-src="img/Framingham-Existing-Conditions.jpg"
+            ></b-carousel-slide>
         </b-carousel>
     </div>
 </template>

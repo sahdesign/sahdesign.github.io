@@ -233,6 +233,10 @@ h5 {
 	border-bottom: 1px solid lightgrey;
 }
 
+.fit-contain {
+	object-fit: contain !important;
+}
+
 .pdf-link-wrapper {
 
 	display: flex;

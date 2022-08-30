@@ -14,6 +14,7 @@
   import ProjectCarousel from '../../projects/48-Monument-Sq/ProjectCarousel.vue';
   import '../../../resources/images/projects/Concords-Colonial-Inn-48-Monument-Square-Concord-Inn-MA-Porch-Addition-Design/48-Monument-Square-Concord-Ma.jpg';
   import '../../../resources/images/projects/Concords-Colonial-Inn-48-Monument-Square-Concord-Inn-MA-Porch-Addition-Design/IMG-1709.jpg';
+  import '../../../resources/images/projects/Concords-Colonial-Inn-48-Monument-Square-Concord-Inn-MA-Porch-Addition-Design/Concord-Inn-compressed.jpg';
 
   export default {
     name: 'ConcordModal',

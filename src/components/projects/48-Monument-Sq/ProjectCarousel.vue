@@ -7,17 +7,25 @@
             :interval="0"
             controls
         >
-        <v-if>
             <b-carousel-slide
                 text="Exterior rendering #1"
                 img-src="img/48-Monument-Square-Concord-Ma.jpg"
             >
             </b-carousel-slide>
             <b-carousel-slide
+                text="Exterior rendering #2"
+            >
+                <template #img>
+                    <img
+                        class="mx-auto fit-contain"
+                        src="img/Concord-Inn-compressed.jpg"
+                    >
+                </template>
+            </b-carousel-slide>
+            <b-carousel-slide
                 text="Existing conditions"
                 img-src="img/IMG-1709.jpg"
             ></b-carousel-slide>
-        </v-if>
         </b-carousel>
     </div>
 </template>

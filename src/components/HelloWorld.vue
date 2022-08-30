@@ -95,8 +95,9 @@
 			<div id="portfolio" class="anchor">
 				<h2>Portfolio</h2>
 				<div class="container-fluid">
+					
 					<MainStModal/>
-					<MainSt2Modal/>
+					<BrooksideStModal/>
 					<WilsonRdModal/>
 					<BluejayStModal/>
 					<CausewayStModal/>
@@ -104,6 +105,9 @@
 					<HighStExtModal/>
 					<WinterStAptsModal/>
 					<ConcordModal/>
+					<MainSt2Modal/>
+					<MillworkDesignModal/>
+					
 				</div>
 				<!-- <ProjectGrid/> -->
 			</div>
@@ -363,6 +367,8 @@
 	import HighStExtModal from './projects/High-St-Ext/Modal.vue';
 	import WinterStAptsModal from './projects/Winter-St-Apts/Modal.vue';
 	import ConcordModal from './projects/48-Monument-Sq/Modal.vue';
+	import MillworkDesignModal from './projects/Millwork-Design/Modal.vue';
+	import BrooksideStModal from './projects/Brookside-St/Modal.vue';
 
 	import bannerImg from '../resources/images/logos/SAH-Design-Logo-full.png';
 	import sethResume from '../resources/documents/Seth-Holden-Resume-2022-Current.pdf';
@@ -385,6 +391,8 @@
 			HighStExtModal,
 			WinterStAptsModal,
 			ConcordModal,
+			MillworkDesignModal,
+			BrooksideStModal,
 			// ProjectGrid,
 			HeroCarousel
 		},

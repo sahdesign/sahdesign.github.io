@@ -15,6 +15,7 @@
   import ProjectCarousel from '../../projects/Winter-St-Apts/ProjectCarousel.vue';
   import '../../../resources/images/projects/Winter-Street-Apartment-Framingham-MA/Framigham-Rendering.jpg';
   import '../../../resources/images/projects/Winter-Street-Apartment-Framingham-MA/PXL-20210927-164710841.jpg';
+  import '../../../resources/images/projects/Winter-Street-Apartment-Framingham-MA/Framingham-Existing-Conditions.jpg';
 
   export default {
     name: 'WinterStAptsModal',
